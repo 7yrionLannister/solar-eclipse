@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.EclipseController">
+   <children>
+      <Rectangle fx:id="sky" arcHeight="5.0" arcWidth="5.0" fill="#f5ee17a3" height="400.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="702.0" />
+      <Circle fx:id="son" fill="#ebe008" layoutX="456.0" layoutY="200.0" radius="74.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="moon" fill="#becedd" layoutX="186.0" layoutY="200.0" radius="74.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crater1" fill="#81add7" layoutX="211.0" layoutY="193.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crater4" fill="#81add7" layoutX="177.0" layoutY="251.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crater3" fill="#81add7" layoutX="211.0" layoutY="242.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="crater2" fill="#81add7" layoutX="173.0" layoutY="216.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="21.0" layoutY="354.0" mnemonicParsing="false" onAction="#moveMoon" text="Move" />
+   </children>
+</Pane>
